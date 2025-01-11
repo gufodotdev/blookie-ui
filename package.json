@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A Tailwind CSS plugin that provides a collection of pre-designed components for building user interfaces faster.",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
