@@ -2,6 +2,7 @@ const plugin = require("tailwindcss/plugin");
 const base = require("./base");
 const theme = require("./theme");
 const container = require("./components/container");
+const button = require("./components/button");
 
 module.exports = plugin(
   function ({ addBase, addComponents }) {
@@ -9,6 +10,7 @@ module.exports = plugin(
       ...base,
     });
     addComponents({
+      ...button,
       ...container,
     });
   },
