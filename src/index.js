@@ -5,6 +5,7 @@ const theme = require("./theme");
 const container = require("./components/container");
 const button = require("./components/button");
 const tabs = require("./components/tabs");
+const table = require("./components/table");
 
 module.exports = plugin(
   function ({ addBase, addComponents }) {
@@ -15,6 +16,7 @@ module.exports = plugin(
     addComponents({
       ...button,
       ...container,
+      ...table,
       ...tabs,
     });
   },
