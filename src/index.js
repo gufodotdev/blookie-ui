@@ -7,6 +7,7 @@ const button = require("./components/button");
 const tabs = require("./components/tabs");
 const table = require("./components/table");
 const card = require("./components/card");
+const link = require("./components/link");
 
 module.exports = plugin(
   function ({ addBase, addComponents }) {
@@ -18,6 +19,7 @@ module.exports = plugin(
       ...button,
       ...card,
       ...container,
+      ...link,
       ...table,
       ...tabs,
     });
