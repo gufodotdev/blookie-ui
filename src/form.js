@@ -14,7 +14,7 @@ module.exports = {
   },
 
   "[type='checkbox'], [type='radio']": {
-    "@apply rounded-md border-border text-primary focus:border-primary/20 focus:ring focus:ring-offset-0 focus:ring-primary/10 focus:ring-opacity-50 size-5 bg-muted":
+    "@apply rounded border-border text-primary focus:border-primary/20 focus:ring focus:ring-offset-0 focus:ring-primary/10 focus:ring-opacity-50 size-[1.125rem] bg-muted":
       {},
   },
 
