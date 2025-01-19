@@ -9,6 +9,7 @@ const table = require("./components/table");
 const card = require("./components/card");
 const link = require("./components/link");
 const dialog = require("./components/dialog");
+const dropdownMenu = require("./components/dropdown-menu");
 
 module.exports = plugin(
   function ({ addBase, addComponents }) {
@@ -21,6 +22,7 @@ module.exports = plugin(
       ...card,
       ...container,
       ...dialog,
+      ...dropdownMenu,
       ...link,
       ...table,
       ...tabs,
