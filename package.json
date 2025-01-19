@@ -1,6 +1,6 @@
 {
   "name": "blookie-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Tailwind CSS plugin that provides a collection of pre-designed components for building user interfaces faster.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -29,7 +29,9 @@
   "author": "Gufo",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
     "@tailwindcss/forms": "^0.5.10"
   },
   "peerDependencies": {
