@@ -1,9 +1,9 @@
 module.exports = {
   ".card": {
-    "@apply relative bg-surface border rounded-xl overflow-hidden": {},
+    "@apply relative w-full bg-surface border rounded-xl overflow-hidden": {},
 
     "&-section": {
-      "@apply p-6 sm:p-8": {},
+      "@apply p-6": {},
     },
   },
 };
