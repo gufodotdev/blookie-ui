@@ -1,8 +1,11 @@
 module.exports = {
   // base
   ".btn": {
-    "@apply inline-flex text-foreground items-center justify-center gap-1.5 whitespace-nowrap rounded-md text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 cursor-pointer h-10 px-4":
+    "@apply inline-flex text-foreground items-center justify-center gap-1.5 whitespace-nowrap rounded-md text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 cursor-pointer":
       {},
+    "@apply [.btn:where(&:not(.btn-surface,.btn-muted,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger,.btn-outline,.btn-ghost))]:btn-surface":
+      {},
+    "@apply [.btn:where(&:not(.btn-sm,.btn-base,.btn-lg))]:btn-base": {},
 
     // variant
     "&-surface": {
@@ -38,6 +41,9 @@ module.exports = {
     "&-sm": {
       "@apply h-9 px-3": {},
     },
+    "&-base": {
+      "@apply h-10 px-4": {},
+    },
     "&-lg": {
       "@apply h-11 px-8": {},
     },
@@ -45,7 +51,6 @@ module.exports = {
     // icon
     "&-icon": {
       "@apply w-10 px-0": {},
-
       "&.btn-sm": {
         "@apply w-9": {},
       },
