@@ -2,7 +2,6 @@ const plugin = require("tailwindcss/plugin");
 const formReset = require("@tailwindcss/forms");
 
 const base = require("./base");
-const form = require("./form");
 const theme = require("./theme");
 
 const container = require("./components/container");
@@ -13,16 +12,18 @@ const card = require("./components/card");
 const link = require("./components/link");
 const dialog = require("./components/dialog");
 const dropdownMenu = require("./components/dropdown-menu");
+const sheet = require("./components/sheet");
+const form = require("./components/form");
+const label = require("./components/label");
 
 module.exports = plugin(
   function (context) {
-    formReset().handler(context);
+    formReset({ strategy: "class" }).handler(context);
 
     const { addBase, addComponents } = context;
 
     addBase({
       ...base,
-      ...form,
     });
 
     addComponents({
@@ -31,7 +32,10 @@ module.exports = plugin(
       ...container,
       ...dialog,
       ...dropdownMenu,
+      ...form,
+      ...label,
       ...link,
+      ...sheet,
       ...table,
       ...tabs,
     });
