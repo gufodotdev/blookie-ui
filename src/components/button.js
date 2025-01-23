@@ -5,7 +5,7 @@ module.exports = {
       {},
 
     // variant
-    "&-default": {
+    "&-surface": {
       "@apply bg-surface text-surface-foreground hover:bg-surface-shade border dark:bg-muted dark:hover:bg-muted-shade":
         {},
     },
