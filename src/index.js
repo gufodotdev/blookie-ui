@@ -12,9 +12,9 @@ const card = require("./components/card");
 const link = require("./components/link");
 const dialog = require("./components/dialog");
 const dropdownMenu = require("./components/dropdown-menu");
-const sheet = require("./components/sheet");
 const form = require("./components/form");
 const label = require("./components/label");
+const offcanvas = require("./components/offcanvas");
 
 module.exports = plugin(
   function (context) {
@@ -35,7 +35,7 @@ module.exports = plugin(
       ...form,
       ...label,
       ...link,
-      ...sheet,
+      ...offcanvas,
       ...table,
       ...tabs,
     });
