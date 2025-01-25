@@ -1,6 +1,6 @@
 module.exports = {
   ".form-input, .form-select, .form-multiselect, .form-textarea": {
-    "@apply block bg-surface text-surface-foreground placeholder:text-surface-foreground/50 text-sm w-full rounded-md border-border focus:border-primary focus:ring-primary dark:[&::-webkit-calendar-picker-indicator]:invert-[50%]":
+    "@apply block bg-surface text-surface-foreground placeholder:text-surface-foreground/50 text-sm w-full rounded-md border-border focus:border-primary focus:ring-primary shadow-sm dark:[&::-webkit-calendar-picker-indicator]:invert-[50%]":
       {},
   },
 
