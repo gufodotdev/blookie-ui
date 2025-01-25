@@ -2,12 +2,12 @@ module.exports = {
   ".btn": {
     "@apply inline-flex text-foreground items-center justify-center gap-1.5 whitespace-nowrap rounded-md text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 cursor-pointer":
       {},
-    "@apply [.btn:where(&:not(.btn-surface,.btn-muted,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger,.btn-outline,.btn-ghost))]:btn-surface":
+    "@apply [.btn:where(&:not(.btn-default,.btn-muted,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger,.btn-outline,.btn-ghost))]:btn-default":
       {},
     "@apply [.btn:where(&:not(.btn-sm,.btn-base,.btn-lg))]:btn-base": {},
   },
 
-  ".btn-surface": {
+  ".btn-default": {
     "@apply bg-surface text-surface-foreground hover:bg-surface-shade border dark:bg-muted dark:hover:bg-muted-shade":
       {},
   },
