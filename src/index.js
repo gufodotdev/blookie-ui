@@ -15,6 +15,7 @@ const dropdownMenu = require("./components/dropdown-menu");
 const form = require("./components/form");
 const label = require("./components/label");
 const offcanvas = require("./components/offcanvas");
+const badge = require("./components/badge");
 
 module.exports = plugin(
   function (context) {
@@ -27,6 +28,7 @@ module.exports = plugin(
     });
 
     addComponents({
+      ...badge,
       ...button,
       ...card,
       ...container,
