@@ -9,32 +9,36 @@ module.exports = {
   },
 
   ".btn-default": {
-    "@apply bg-surface text-surface-foreground hover:bg-surface-shade border dark:bg-muted dark:hover:bg-muted-shade":
+    "@apply bg-surface text-surface-foreground shadow-sm hover:bg-surface-shade border dark:bg-muted dark:hover:bg-muted-shade":
       {},
   },
 
   ".btn-muted": {
-    "@apply bg-muted text-foreground hover:bg-muted-shade": {},
+    "@apply bg-muted text-foreground shadow-sm hover:bg-muted-shade": {},
   },
 
   ".btn-primary": {
-    "@apply bg-primary text-primary-foreground hover:bg-primary-shade": {},
+    "@apply bg-primary text-primary-foreground shadow-sm hover:bg-primary-shade":
+      {},
   },
 
   ".btn-success": {
-    "@apply bg-success text-success-foreground hover:bg-success-shade": {},
+    "@apply bg-success text-success-foreground shadow-sm hover:bg-success-shade":
+      {},
   },
 
   ".btn-info": {
-    "@apply bg-info text-info-foreground hover:bg-info-shade": {},
+    "@apply bg-info text-info-foreground shadow-sm hover:bg-info-shade": {},
   },
 
   ".btn-warning": {
-    "@apply bg-warning text-warning-foreground hover:bg-warning-shade": {},
+    "@apply bg-warning text-warning-foreground shadow-sm hover:bg-warning-shade":
+      {},
   },
 
   ".btn-danger": {
-    "@apply bg-danger text-danger-foreground hover:bg-danger-shade": {},
+    "@apply bg-danger text-danger-foreground shadow-sm hover:bg-danger-shade":
+      {},
   },
 
   ".btn-outline": {
