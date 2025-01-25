@@ -4,7 +4,8 @@ module.exports = {
       {},
     "@apply [.btn:where(&:not(.btn-default,.btn-muted,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger,.btn-outline,.btn-ghost))]:btn-default":
       {},
-    "@apply [.btn:where(&:not(.btn-sm,.btn-base,.btn-lg))]:btn-base": {},
+    "@apply [.btn:where(&:not(.btn-xs,.btn-sm,.btn-base,.btn-lg))]:btn-base":
+      {},
   },
 
   ".btn-default": {
@@ -44,6 +45,10 @@ module.exports = {
     "@apply hover:bg-muted": {},
   },
 
+  ".btn-xs": {
+    "@apply h-8 px-2.5 text-xs [&_svg]:size-3.5": {},
+  },
+
   ".btn-sm": {
     "@apply h-9 px-3": {},
   },
@@ -58,6 +63,10 @@ module.exports = {
 
   ".btn-icon": {
     "@apply w-10 px-0": {},
+  },
+
+  ".btn.btn-icon.btn-xs": {
+    "@apply w-8": {},
   },
 
   ".btn.btn-icon.btn-sm": {
