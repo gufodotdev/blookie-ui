@@ -25,4 +25,8 @@ module.exports = {
   ".link-lg": {
     "@apply text-base": {},
   },
+
+  ".link-underline": {
+    "@apply underline underline-offset-4": {},
+  },
 };
