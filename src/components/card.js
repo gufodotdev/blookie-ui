@@ -1,12 +1,41 @@
 module.exports = {
   ".card": {
-    "@apply relative w-full bg-surface border rounded-xl overflow-hidden shadow-sm":
+    "@apply relative w-full rounded-xl overflow-hidden": {},
+    "@apply [.card:where(&:not(.card-default,.card-muted,.card-primary,.card-success,.card-info,.card-warning,.card-danger))]:card-default":
       {},
   },
 
   ".card-section": {
     "@apply [.card-section:where(&:not(.card-section-sm,.card-section-base,.card-section-lg))]:card-section-base":
       {},
+  },
+
+  ".card-default": {
+    "@apply bg-surface border shadow-sm": {},
+  },
+
+  ".card-muted": {
+    "@apply bg-muted text-foreground": {},
+  },
+
+  ".card-primary": {
+    "@apply bg-primary text-primary-foreground": {},
+  },
+
+  ".card-success": {
+    "@apply bg-success text-success-foreground": {},
+  },
+
+  ".card-info": {
+    "@apply bg-info text-info-foreground": {},
+  },
+
+  ".card-warning": {
+    "@apply bg-warning text-warning-foreground": {},
+  },
+
+  ".card-danger": {
+    "@apply bg-danger text-danger-foreground": {},
   },
 
   ".card-section-sm": {
