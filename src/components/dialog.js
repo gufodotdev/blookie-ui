@@ -4,7 +4,7 @@ module.exports = {
   },
 
   ".dialog-content": {
-    "@apply fixed left-[50%] top-[25%] z-50 w-full max-w-lg translate-x-[-50%] translate-y-[-50%] card card-section":
+    "@apply fixed left-[50%] top-[50%] z-50 w-full max-w-lg translate-x-[-50%] translate-y-[-50%] bg-surface border shadow-sm rounded-xl p-6":
       {},
   },
 };
