@@ -4,7 +4,7 @@ module.exports = {
   },
 
   ".offcanvas-content": {
-    "@apply fixed z-50 card card-section rounded-none": {},
+    "@apply fixed z-50 p-6 shadow-sm bg-surface": {},
     "@apply [.offcanvas-content:where(&:not(.offcanvas-content-left,.offcanvas-content-right,.offcanvas-content-bottom,.offcanvas-content-top))]:offcanvas-content-right":
       {},
   },
