@@ -39,7 +39,7 @@ module.exports = {
   },
 
   ".card-section-sm": {
-    "@apply p-4": {},
+    "@apply p-3": {},
   },
 
   ".card-section-base": {
