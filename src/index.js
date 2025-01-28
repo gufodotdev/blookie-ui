@@ -43,6 +43,7 @@ module.exports = plugin(
     });
   },
   {
+    darkMode: ["class"],
     ...theme,
     corePlugins: {
       container: false,
