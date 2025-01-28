@@ -18,7 +18,7 @@ module.exports = {
     "--color-background": "var(--color-gray-50)",
     "--color-foreground": "var(--color-gray-900)",
 
-    "--color-border": "var(--color-gray-200)",
+    "--color-border": "var(--color-gray-900), 0.1",
 
     "--color-surface": "var(--color-white)",
     "--color-surface-shade": "var(--color-gray-100)",
