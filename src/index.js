@@ -14,7 +14,7 @@ const dialog = require("./components/dialog");
 const dropdownMenu = require("./components/dropdown-menu");
 const form = require("./components/form");
 const label = require("./components/label");
-const offcanvas = require("./components/offcanvas");
+const drawer = require("./components/drawer");
 const badge = require("./components/badge");
 
 module.exports = plugin(
@@ -33,11 +33,11 @@ module.exports = plugin(
       ...card,
       ...container,
       ...dialog,
+      ...drawer,
       ...dropdownMenu,
       ...form,
       ...label,
       ...link,
-      ...offcanvas,
       ...table,
       ...tabs,
     });

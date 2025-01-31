@@ -1,27 +1,25 @@
 module.exports = {
-  ".offcanvas-overlay": {
+  ".drawer-overlay": {
     "@apply fixed inset-0 z-50 bg-black/50": {},
   },
-
-  ".offcanvas-content": {
+  ".drawer-content": {
     "@apply fixed z-50 p-6 shadow-sm bg-surface": {},
-    "@apply [.offcanvas-content:where(&:not(.offcanvas-content-left,.offcanvas-content-right,.offcanvas-content-bottom,.offcanvas-content-top))]:offcanvas-content-right":
+    "@apply [.drawer-content:where(&:not(.drawer-content-left,.drawer-content-right,.drawer-content-bottom,.drawer-content-top))]:drawer-content-right":
       {},
   },
-
-  ".offcanvas-content-left": {
+  ".drawer-content-left": {
     "@apply inset-y-0 left-0 w-full h-full max-w-[min(90%,_16rem)]": {},
   },
 
-  ".offcanvas-content-right": {
+  ".drawer-content-right": {
     "@apply inset-y-0 right-0 w-full h-full max-w-[min(90%,_16rem)]": {},
   },
 
-  ".offcanvas-content-bottom": {
+  ".drawer-content-bottom": {
     "@apply inset-x-0 w-full h-auto bottom-0 max-h-[90%]": {},
   },
 
-  ".offcanvas-content-top": {
+  ".drawer-content-top": {
     "@apply inset-x-0 w-full h-auto top-0 max-h-[90%]": {},
   },
 };
