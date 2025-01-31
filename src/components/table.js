@@ -1,6 +1,6 @@
 module.exports = {
   ".table": {
-    "@apply w-full overflow-auto text-sm": {},
+    "@apply min-w-full text-sm": {},
   },
 
   ".table-head": {},
