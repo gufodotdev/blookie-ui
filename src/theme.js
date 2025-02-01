@@ -63,5 +63,53 @@ module.exports = {
         },
       },
     },
+    keyframes: {
+      "dialog-content-open": {
+        from: {
+          scale: "0.9",
+          translate: "-5% -5%",
+          opacity: "0",
+        },
+        to: {
+          scale: "1",
+          translate: "0% 0%",
+          opacity: "1",
+        },
+      },
+      "dialog-content-close": {
+        from: {
+          scale: "1",
+          translate: "0% 0%",
+          opacity: "1",
+        },
+        to: {
+          scale: "0.9",
+          translate: "-5% -5%",
+          opacity: "0",
+        },
+      },
+      "fade-in": {
+        from: {
+          opacity: "0",
+        },
+        to: {
+          opacity: "1",
+        },
+      },
+      "fade-out": {
+        from: {
+          opacity: "1",
+        },
+        to: {
+          opacity: "0",
+        },
+      },
+    },
+    animation: {
+      "dialog-content-open": "dialog-content-open 150ms",
+      "dialog-content-close": "dialog-content-close 75ms",
+      "dialog-overlay-open": "fade-in 150ms",
+      "dialog-overlay-close": "fade-out 75ms",
+    },
   },
 };
