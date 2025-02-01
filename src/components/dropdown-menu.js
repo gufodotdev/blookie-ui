@@ -2,6 +2,8 @@ module.exports = {
   ".dropdown-menu-content": {
     "@apply z-50 min-w-48 overflow-hidden rounded-md border bg-surface p-1 text-surface-foreground shadow-md":
       {},
+    "@apply data-[state=open]:animate-popover-content-open data-[state=closed]:animate-popover-content-close":
+      {},
   },
 
   ".dropdown-menu-item": {

@@ -88,6 +88,26 @@ module.exports = {
           opacity: "0",
         },
       },
+      "popover-content-open": {
+        from: {
+          scale: "0.95",
+          opacity: "0",
+        },
+        to: {
+          scale: "1",
+          opacity: "1",
+        },
+      },
+      "popover-content-close": {
+        from: {
+          scale: "1",
+          opacity: "1",
+        },
+        to: {
+          scale: "0.95",
+          opacity: "0",
+        },
+      },
       "fade-in": {
         from: {
           opacity: "0",
@@ -110,6 +130,8 @@ module.exports = {
       "dialog-content-close": "dialog-content-close 75ms",
       "dialog-overlay-open": "fade-in 150ms",
       "dialog-overlay-close": "fade-out 75ms",
+      "popover-content-open": "popover-content-open 75ms",
+      "popover-content-close": "popover-content-close 75ms",
     },
   },
 };
