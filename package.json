@@ -1,6 +1,6 @@
 {
   "name": "blookie-ui",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A Tailwind CSS plugin with pre-designed components for React, integrating seamlessly with Radix UI to build accessible and beautiful UIs.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
