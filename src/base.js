@@ -28,24 +28,24 @@ module.exports = {
     "--color-muted-shade": "var(--color-gray-200)",
     "--color-muted-foreground": "var(--color-gray-500)",
 
-    "--color-primary": "145, 100%, 32%",
-    "--color-primary-shade": "145, 100%, 24%",
+    "--color-primary": "243, 75%, 59%",
+    "--color-primary-shade": "243, 75%, 44%",
     "--color-primary-foreground": "var(--color-white)",
 
     "--color-info": "221, 83%, 53%",
-    "--color-info-shade": "224, 76%, 48%",
+    "--color-info-shade": "221, 83%, 40%",
     "--color-info-foreground": "var(--color-white)",
 
-    "--color-success": "142, 76%, 36%",
-    "--color-success-shade": "142, 72%, 29%",
+    "--color-success": "145, 100%, 32%",
+    "--color-success-shade": "145, 100%, 24%",
     "--color-success-foreground": "var(--color-white)",
 
-    "--color-warning": "45, 93%, 47%",
-    "--color-warning-shade": "32, 95%, 44%",
+    "--color-warning": "45, 100%, 50%",
+    "--color-warning-shade": "45, 100%, 37%",
     "--color-warning-foreground": "var(--color-white)",
 
     "--color-danger": "0, 72%, 51%",
-    "--color-danger-shade": "0, 74%, 42%",
+    "--color-danger-shade": "0, 72%, 38%",
     "--color-danger-foreground": "var(--color-white)",
   },
   ".dark": {
@@ -62,24 +62,24 @@ module.exports = {
     "--color-muted-shade": "var(--color-white), 0.2",
     "--color-muted-foreground": "var(--color-gray-400)",
 
-    "--color-primary": "145, 100%, 32%",
-    "--color-primary-shade": "145, 100%, 40%",
+    "--color-primary": "243, 75%, 59%",
+    "--color-primary-shade": "243, 75%, 73%",
     "--color-primary-foreground": "var(--color-white)",
 
     "--color-info": "221, 83%, 53%",
-    "--color-info-shade": "224, 76%, 48%",
+    "--color-info-shade": "221, 83%, 67%",
     "--color-info-foreground": "var(--color-white)",
 
-    "--color-success": "142, 76%, 36%",
-    "--color-success-shade": "142, 72%, 29%",
+    "--color-success": "145, 100%, 32%",
+    "--color-success-shade": "145, 100%, 40%",
     "--color-success-foreground": "var(--color-white)",
 
-    "--color-warning": "45, 93%, 47%",
-    "--color-warning-shade": "32, 95%, 44%",
+    "--color-warning": "45, 100%, 50%",
+    "--color-warning-shade": "45, 100%, 62%",
     "--color-warning-foreground": "var(--color-white)",
 
     "--color-danger": "0, 72%, 51%",
-    "--color-danger-shade": "0, 74%, 42%",
+    "--color-danger-shade": "0, 72%, 63%",
     "--color-danger-foreground": "var(--color-white)",
   },
   "*": {
