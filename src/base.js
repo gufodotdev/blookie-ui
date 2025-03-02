@@ -28,8 +28,8 @@ module.exports = {
     "--color-muted-shade": "var(--color-gray-200)",
     "--color-muted-foreground": "var(--color-gray-500)",
 
-    "--color-primary": "243, 75%, 59%",
-    "--color-primary-shade": "243, 75%, 44%",
+    "--color-primary": "142, 74%, 33%",
+    "--color-primary-shade": "142, 74%, 25%",
     "--color-primary-foreground": "var(--color-white)",
 
     "--color-info": "221, 83%, 53%",
@@ -62,8 +62,8 @@ module.exports = {
     "--color-muted-shade": "var(--color-white), 0.2",
     "--color-muted-foreground": "var(--color-gray-400)",
 
-    "--color-primary": "243, 75%, 59%",
-    "--color-primary-shade": "243, 75%, 73%",
+    "--color-primary": "142, 74%, 33%",
+    "--color-primary-shade": "142, 74%, 41%",
     "--color-primary-foreground": "var(--color-white)",
 
     "--color-info": "221, 83%, 53%",
