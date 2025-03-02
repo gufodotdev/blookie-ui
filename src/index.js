@@ -16,6 +16,7 @@ const form = require("./components/form");
 const label = require("./components/label");
 const drawer = require("./components/drawer");
 const badge = require("./components/badge");
+const pageSection = require("./components/page-section");
 
 module.exports = plugin(
   function (context) {
@@ -38,6 +39,7 @@ module.exports = plugin(
       ...form,
       ...label,
       ...link,
+      ...pageSection,
       ...table,
       ...tabs,
     });
