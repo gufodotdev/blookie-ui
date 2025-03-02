@@ -81,6 +81,8 @@ module.exports = {
     "--color-danger": "0, 72%, 51%",
     "--color-danger-shade": "0, 72%, 63%",
     "--color-danger-foreground": "var(--color-white)",
+
+    "@apply text-foreground": {},
   },
   "*": {
     "@apply border-border": {},
